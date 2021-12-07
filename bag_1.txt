@@ -1,12 +1,24 @@
 id:
+{
 
+}
 title:
+{
 
+}
 steps:
+{
 
+}
 AR:
+{
 
+}
 ER:
+{
 
+}
 severity:
+{
 
+}
