@@ -1,24 +1,11 @@
-id:
-{
+id:		{	}
 
-}
-title:
-{
+title:		{	}
 
-}
-steps:
-{
+steps:		{	}
 
-}
-AR:
-{
+AR:		{	}
 
-}
-ER:
-{
+ER:		{	}
 
-}
-severity:
-{
-
-}
+severity:	{	}
