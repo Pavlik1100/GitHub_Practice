@@ -60,6 +60,27 @@ git merge Bag_Reports
 git push
 ```
 8. В ветке CheckLists набросать структуру чек листа.
+```sh
+git checkout CheckLists
+touch checklist.txt
+vim checklist.txt
+```
+`press "i" for iinsert`  
+```sh
+1. Open web-page
+2. Enter user information
+3. Click button "loggin"
+4. Open setting profile
+5. Change surname
+6. Save chages
+```  
+`press "esc", pres after ":wq", press "enter"`  
+
 9. Запушить структуру на внешний репозиторий
+```sh
+git add .
+git commit -m "checklist.txt"
+git push origin CheckList
+```
 10. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 11. Синхронизировать Внешнюю и Локальную ветки Main
