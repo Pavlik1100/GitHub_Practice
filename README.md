@@ -30,17 +30,17 @@ vim bag_1.txt
 ```
 `press "i" for iinsert`  
 ```sh
-id:
+id:             {       }
 
-title:
+title:          {       }
 
-steps:
+steps:          {       }
 
-AR:
+AR:             {       }
 
-ER:
+ER:             {       }
 
-severity:
+severity:       {       }
 ```  
 `press "esc", pres after ":wq", press "enter"`  
   
@@ -48,10 +48,17 @@ severity:
 ```sh
 git add .
 git commit -m "create bag_1.txt"
-git push origin bag_reports
+git push origin Bag_Reports
 ```
-6. Вмержить ветку Bag Reports в Main
-7. Запушить main на внешний репозиторий.
+5. Вмержить ветку Bag Reports в Main
+```sh
+git checkout main
+git merge Bag_Reports
+```
+6. Запушить main на внешний репозиторий.
+```sh
+git push
+```
 8. В ветке CheckLists набросать структуру чек листа.
 9. Запушить структуру на внешний репозиторий
 10. На внешнем репозитории сделать Pull Request ветки CheckLists в main
