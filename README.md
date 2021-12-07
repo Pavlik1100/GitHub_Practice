@@ -22,8 +22,34 @@ git branch Mobile_Testing
 ```sh
 git push origin -all
 ```
-4. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-5. Запушить структуру багрепорта на внешний репозиторий
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+```sh
+git checkout Bag_Reports
+touch bag_1.txt
+vim bag_1.txt
+```
+`press "i" for iinsert`  
+```sh
+id:
+
+title:
+
+steps:
+
+AR:
+
+ER:
+
+severity:
+```  
+`press "esc", pres after ":wq", press "enter"`  
+  
+4. Запушить структуру багрепорта на внешний репозиторий
+```sh
+git add .
+git commit -m "create bag_1.txt"
+git push origin bag_reports
+```
 6. Вмержить ветку Bag Reports в Main
 7. Запушить main на внешний репозиторий.
 8. В ветке CheckLists набросать структуру чек листа.
