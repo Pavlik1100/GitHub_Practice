@@ -82,5 +82,5 @@ git add .
 git commit -m "checklist.txt"
 git push origin CheckList
 ```
-10. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+10. На внешнем репозитории сделать Pull Request ветки CheckLists в main  `в вебе  выбрать "Pull requests"` -> `нажат  кнопку "New pull request"` -> `выбрать правильную комбинцию веток "main <- Checklists"` -> `нажать кнрпку "Create pullrequest"` -> `оставить коммит и нажать на кнопку "Create pullrequest"` -> `нажать кнопку "merge pull request" убедившись в отсутствии конфликтов` -> `подтвердить merge`
 11. Синхронизировать Внешнюю и Локальную ветки Main
