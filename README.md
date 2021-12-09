@@ -84,3 +84,8 @@ git push origin CheckList
 ```
 10. На внешнем репозитории сделать Pull Request ветки CheckLists в main  `в вебе  выбрать "Pull requests"` -> `нажат  кнопку "New pull request"` -> `выбрать правильную комбинцию веток "main <- Checklists"` -> `нажать кнрпку "Create pullrequest"` -> `оставить коммит и нажать на кнопку "Create pullrequest"` -> `нажать кнопку "merge pull request" убедившись в отсутствии конфликтов` -> `подтвердить merge`
 11. Синхронизировать Внешнюю и Локальную ветки Main
+```sh
+git remote add  origin https://github.com/Pavlik1100/HW_2-Practice_GitHub.git
+git pull
+git pull origin main
+```
