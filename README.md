@@ -1,5 +1,5 @@
-# HW_2-Practice_GitHub
-GitHub. HW_2
+# Practice_GitHub
+
 1. На локальном репозитории сделать ветки для:
 - Postman
 - Jmeter
@@ -89,3 +89,7 @@ git remote add  origin https://github.com/Pavlik1100/HW_2-Practice_GitHub.git
 git pull
 git pull origin main
 ```
+## 🚏 Navigate:
+[![Flutter](https://img.shields.io/badge/🏠-GITHUB_BRANCH-00A98F)](https://github.com/Pavlik1100/QA_Practice/tree/GitHub)  [![Flutter](https://img.shields.io/badge/🏠-QA_PRACTICE_BANCH-orange)](https://github.com/Pavlik1100/QA_Practice/tree/main)
+## 📫 How to reach me:  
+[![Flutter](https://img.shields.io/badge/-Pavel_Simonov-000000?style=social&logo=LinkedIn)](https://www.linkedin.com/in/pavel-simonov-7a8b1119a/)  [![Flutter](https://img.shields.io/badge/-Pavel_Simonov-000000?style=social&logo=Telegram)](https://t.me/NuiSaiman)  [![Flutter](https://img.shields.io/badge/-simonovpavlik@gmail.com-000000?style=social&logo=Gmail)](mailto:simonovpavlik@gmail.com) 
